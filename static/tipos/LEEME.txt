@@ -1,0 +1,7 @@
+Coloca aquí los PNG de los tipos (alta resolución, p. ej. de WikiDex) con EXACTAMENTE estos nombres:
+
+normal.png    fuego.png     agua.png      electrico.png  planta.png    hielo.png
+lucha.png     veneno.png    tierra.png    volador.png    psiquico.png  bicho.png
+roca.png      fantasma.png  dragon.png    siniestro.png  acero.png     hada.png
+
+(minúsculas, sin tildes). Si falta algún PNG, la tarjeta muestra una etiqueta de texto de color.

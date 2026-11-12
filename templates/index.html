@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Randomlocke Tracker – Ultra Sol</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="lives-box">
+    <span class="lives-label">♥ VIDAS</span>
+    <div class="lives-row">
+      <button id="lives-minus" class="ctl" title="Restar vida">−</button>
+      <span id="lives-value">0</span>
+      <button id="lives-plus" class="ctl" title="Sumar vida">+</button>
+    </div>
+  </div>
+
+  <button id="settings-btn" class="ctl" title="Configuración">⚙</button>
+  <div id="settings" hidden>
+    <label>Ruta del archivo <code>main</code> (Citra / Lime3DS)</label>
+    <input id="save-path" type="text" placeholder="C:\...\title\00040000\001b5000\data\00000001\main" spellcheck="false">
+    <div class="settings-row">
+      <select id="language">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+      <button id="save-settings">Guardar</button>
+    </div>
+  </div>
+
+  <main id="team"></main>
+  <div id="status"></div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
