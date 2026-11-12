@@ -15,9 +15,11 @@ También puedes poner la ruta desde el botón ⚙.
 
 URL: `?bg=1` fondo oscuro · `?controls=0` oculta ⚙ y los botones +/−.
 
-Ruta típica en Citra (Ultra Sol `001b5000`, Ultra Luna `001b5100`):
-`...\sdmc\Nintendo 3DS\0000...\0000...\title\00040000\001b5000\data\00000001\main`
+Ruta típica en Citra para wsl (Ultra Sol `001b5000`, Ultra Luna `001b5100`):
+`.../sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/001b5000/data/00000001/`
 
+Ruta típica en Citra para powershell (Ultra Sol `001b5000`, Ultra Luna `001b5100`)
+`sdmc\Nintendo 3DS\00000000000000000000000000000000\00000000000000000000000000000000\title\00040000\001b5000\data\00000001` 
 ## Estructura
 
 | Pieza | Archivo |
